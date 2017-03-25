@@ -1,5 +1,6 @@
 FROM ubuntu
 
+RUN apt-get update
 RUN apt-get -y install openssh-server
 RUN mkdir -p /var/run/sshd
 
